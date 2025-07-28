@@ -1,4 +1,3 @@
-// src/app/signup/page.js
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -43,7 +42,7 @@ export default function SignUpPage() {
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target
-    
+
     if (type === 'checkbox') {
       setFormData(prev => ({
         ...prev,
@@ -84,11 +83,11 @@ export default function SignUpPage() {
       {/* Import Inter Font & Global Styles */}
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-        
+
         * {
           box-sizing: border-box;
         }
-        
+
         body {
           margin: 0;
           padding: 0;
@@ -96,7 +95,7 @@ export default function SignUpPage() {
           background: #ffffff;
           min-height: 100vh;
         }
-        
+
         html {
           scroll-behavior: smooth;
         }
@@ -146,7 +145,7 @@ export default function SignUpPage() {
               }}
               variants={fadeInUp}
             >
-              You're not alone. Let us help support your family's journey.
+              You&apos;re not alone. Let us help support your family&apos;s journey.
             </motion.p>
             <motion.p 
               style={{ 

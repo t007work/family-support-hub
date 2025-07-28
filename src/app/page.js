@@ -1,4 +1,3 @@
-// src/app/page.js
 'use client'
 
 import Navigation from '../components/landing/Navigation'
@@ -17,11 +16,11 @@ export default function LandingPage() {
       {/* Import Oswald Font & Global Styles */}
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700;800;900&display=swap');
-        
+
         * {
           box-sizing: border-box;
         }
-        
+
         body {
           margin: 0;
           padding: 0;
@@ -29,12 +28,11 @@ export default function LandingPage() {
           background: #ffffff;
           min-height: 100vh;
         }
-        
+
         html {
           scroll-behavior: smooth;
         }
 
-        /* Mobile-first responsive design */
         .hero-buttons {
           display: flex;
           gap: 1rem;
@@ -48,7 +46,7 @@ export default function LandingPage() {
             align-items: center;
             gap: 1rem;
           }
-          
+
           .hero-buttons > * {
             width: 100%;
             max-width: 280px;
@@ -56,7 +54,6 @@ export default function LandingPage() {
           }
         }
 
-        /* Grid responsive classes */
         .grid-responsive {
           display: grid;
           grid-template-columns: 1fr;
@@ -120,7 +117,6 @@ export default function LandingPage() {
           }
         }
 
-        /* Mobile navigation styles */
         .mobile-menu {
           position: absolute;
           top: 100%;
@@ -136,7 +132,6 @@ export default function LandingPage() {
           z-index: 100;
         }
 
-        /* Background image fixes for mobile */
         .hero-bg {
           background-attachment: scroll;
         }
@@ -157,7 +152,6 @@ export default function LandingPage() {
           }
         }
 
-        /* Section alternating backgrounds */
         .section-white {
           background: #ffffff;
         }
@@ -176,27 +170,22 @@ export default function LandingPage() {
         fontFamily: '"Oswald", sans-serif',
         position: 'relative'
       }}>
-        {/* Navigation */}
         <div className="section-white">
           <Navigation />
         </div>
-        
-        {/* Hero */}
+
         <div className="section-light-gray">
           <HeroSection />
         </div>
-        
-        {/* Stats */}
+
         <div className="section-white">
           <StatsSection />
         </div>
-        
-        {/* Mission */}
+
         <div className="section-lighter-gray">
           <MissionSection />
         </div>
-        
-        {/* Photo Gallery Section with Enhanced Overlay */}
+
         <section 
           className="photo-gallery-bg"
           style={{
@@ -240,33 +229,27 @@ export default function LandingPage() {
                 lineHeight: 1.6,
                 textShadow: '0 2px 4px rgba(0, 0, 0, 0.3)'
               }}>
-                Our Family Support Hub is more than just a building – it's a warm, 
+                Our Family Support Hub is more than just a building – it&apos;s a warm, 
                 welcoming space where families find hope, children discover their potential, 
                 and communities come together to support one another.
               </p>
             </motion.div>
           </div>
         </section>
-        
-        {/* Services */}
+
         <div className="section-white">
           <ServicesSection />
         </div>
-        
-        {/* Testimonials */}
+
         <div className="section-light-gray">
           <TestimonialsSection />
         </div>
-        
-        {/* CTA */}
+
         <div className="section-lighter-gray">
           <CTASection />
         </div>
-        
-        {/* Footer */}
-        <div style={{
-          background: '#1e293b'
-        }}>
+
+        <div style={{ background: '#1e293b' }}>
           <Footer />
         </div>
       </div>
