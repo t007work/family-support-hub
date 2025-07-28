@@ -18,10 +18,10 @@ export default function HeroSection() {
             style={heroStyles.title}
             variants={fadeInUp}
           >
-            Breaking the Cycle of
+            Supporting Families to
             <br />
             <span style={heroStyles.gradient}>
-              Intergenerational Poverty
+              Reduce Daily Pressures
             </span>
           </motion.h1>
 
@@ -29,9 +29,9 @@ export default function HeroSection() {
             style={heroStyles.subtitle}
             variants={fadeInUp}
           >
-            When families are trapped in cycles of poverty, children suffer the most. 
-            We provide comprehensive support to break these cycles and give every child 
-            the opportunity to thrive, regardless of their family's circumstances.
+            Low-income families often face mounting pressure from financial stress, 
+            limited access to resources, and lack of support. We offer holistic support 
+            to ease these burdens—giving parents peace of mind and children a chance to thrive.
           </motion.p>
 
           <motion.div

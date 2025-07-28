@@ -299,28 +299,28 @@ export default function MissionSection() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h3 style={{
-            fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
-            fontWeight: 800,
-            color: '#1e40af',
-            marginBottom: 'clamp(1.5rem, 3vw, 2rem)',
-            fontFamily: '"Oswald", sans-serif'
-          }}>
-            Together, We Break the Cycle
-          </h3>
-          <p style={{
-            fontSize: 'clamp(1rem, 2vw, 1.2rem)',
-            color: '#1e40af',
-            lineHeight: 1.7,
-            maxWidth: '60rem',
-            margin: '0 auto'
-          }}>
-            By addressing the root causes of poverty through comprehensive family support, 
-            quality childcare, educational assistance, job placement, and mental health services, 
-            we ensure that children have the stable foundation they need to succeed. 
-            <strong> Our goal is simple: every child deserves the opportunity to break free 
-            from the circumstances they were born into and build a brighter future.</strong>
-          </p>
+        <h3 style={{
+  fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
+  fontWeight: 800,
+  color: '#1e40af',
+  marginBottom: 'clamp(1.5rem, 3vw, 2rem)',
+  fontFamily: '"Oswald", sans-serif'
+}}>
+  Together, We Support Families in Need
+</h3>
+<p style={{
+  fontSize: 'clamp(1rem, 2vw, 1.2rem)',
+  color: '#1e40af',
+  lineHeight: 1.7,
+  maxWidth: '60rem',
+  margin: '0 auto'
+}}>
+  By addressing the day-to-day pressures faced by low-income families—such as housing, education, 
+  childcare, and mental health—we help build stronger foundations for both parents and children. 
+  <strong> Our mission is simple: reduce the stressors that weigh families down and empower them 
+  to focus on growth, resilience, and brighter futures.</strong>
+</p>
+
         </motion.div>
       </div>
 
